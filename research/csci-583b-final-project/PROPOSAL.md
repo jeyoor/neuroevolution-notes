@@ -1,12 +1,12 @@
 Final Project Proposal
 ====
 
-Playground: An Interactive Demonstration of Neuroevolution for Atari Gameplay
+PongOut: Competitive Paddleball
 ----
 
 * Base Phase
-    * Watch DQN play a few Atari games
-    * Play head-to-head against DQN
+    * Upgrade the Breakout game to support competitive play between 2 human players (I'm envisioning vertical Pong)
+    * Implement a simple "ball-chasing" agent to stand in as the second player
 * Stretch Goals
-    * Upgrade DQN with [Novelty Search](https://books.google.com/books?id=nbtnBwAAQBAJ&pg=PA344&lpg=PA344&dq=Evolving+Diverse+Strategies+Through+Combined+Phenotypic+Novelty+and+Objective+Function+Search&source=bl&ots=8bXwXQZvIl&sig=RyePcYghQhpdyyvuwoTuWuRC95c&hl=en&sa=X&ved=0CC4Q6AEwA2oVChMI0pGd--PdyAIVwXg-Ch0iUAey#v=onepage&q=Evolving%20Diverse%20Strategies%20Through%20Combined%20Phenotypic%20Novelty%20and%20Objective%20Function%20Search&f=false)
-    * Compare/contrast open-source DQN implementations with Google's proprietary version
+    * Create a neuroevolution agent to play against the linear "ball-chaser"
+    * Implement a 0 players mode where you can watch the neuroevolution agent evolve better strategies
